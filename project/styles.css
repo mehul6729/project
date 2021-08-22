@@ -1,0 +1,165 @@
+body {
+  font-size: 200%;
+  width: 100%;
+  height: 100vh;
+}
+
+section {
+  background-color: #eee;
+}
+
+h1 {
+  float: right;
+  margin-right: 58%;
+  font-weight: bold !important;
+  font-size: 170% !important;
+  margin-top: 20px !important;
+  font-weight: 600 !important;
+}
+
+h2 {
+  font-size: 120% !important;
+}
+
+/* NAVBAR 1 */
+.text {
+  margin-right: -160px;
+}
+
+.logo {
+  width: 260px;
+}
+
+.form-inline {
+  display: inline-block;
+  padding: 0;
+}
+
+.right li {
+  display: inline-block;
+  padding: 0;
+}
+
+li .envelope {
+  margin-right: 50px;
+}
+
+li .bell {
+  padding-right: 20px;
+}
+
+.photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.form-control {
+  width: 300px !important;
+  margin-left: -320px;
+  border: 1px solid #ccc !important;
+}
+
+/* NAVBAR 2 */
+li i {
+  padding-right: 5px;
+}
+
+form {
+  padding-right: 50%;
+}
+
+.email {
+  margin-left: 40%;
+  margin-top: -27%;
+  text-align: center;
+}
+
+.email-from {
+  float: right;
+}
+
+input[type=email],
+[type=submit] {
+  font-size: 150%;
+  border: 0;
+}
+
+input[type=submit] {
+  background-color: #5d069c;
+  color: #fff;
+  font-weight: 100;
+}
+
+.sec-nav {
+  display: inline-block;
+  background-color: #5d069c;
+}
+
+.nav-info {
+  padding-right: 20px;
+  padding-bottom: 0;
+}
+
+.btn {
+  color: #fff !important;
+  background-color: #5d069c !important;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+ul li {
+  display: block;
+  padding: 6.3px 0;
+  text-align: left;
+  color: #999;
+}
+
+.header {
+  font-size: 112%;
+  color: #fff;
+}
+
+.verification {
+  color: #fff;
+  font-size: 112%;
+}
+
+.intrgartion {
+  color: #fff;
+}
+
+.billing {
+  color: #fff;
+}
+
+.header:after {
+  display: block;
+  height: 1px;
+  background-color: #aaa;
+  content: " ";
+  width: 200px;
+  margin: 0 -10%;
+  margin-top: 10px;
+}
+
+.first-topic,
+.sec-topic,
+.thir-topic {
+  padding: 0;
+  padding-left: 10px;
+}
+
+.first-topic:after,
+.sec-topic:after {
+  display: block;
+  height: 1px;
+  background-color: #aaa;
+  content: " ";
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
